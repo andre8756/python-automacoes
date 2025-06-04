@@ -1,6 +1,6 @@
 import pyautogui
 import time
-
+import pandas
 
 ## Passo 1: Abrindo o navegador
 #pyautogui.press("win")
@@ -26,6 +26,10 @@ pyautogui.write("123")
 pyautogui.press("tab")
 pyautogui.press("enter")
 
-# Passo 3: Importar a base de dados
+time.sleep(3)
+
+# Passo 3: Importar a base de dados - pandas
+pandas.read_csv()
+
 # Passo 4: Cadastrar 1 produto
 # Passo 5: Repetir para todos os produtos
